@@ -1,0 +1,17 @@
+﻿{
+    "GameServer02":  {
+                         "LaunchInfo":  "Windows Powershell",
+                         "description":  "Arma 3 - Antistasi Server",
+                         "Name":  "Arma 3"
+                     },
+    "GameServer01":  {
+                         "LaunchInfo":  "Windows Powershell",
+                         "description":  "Satisfactory - Pétrole Doggo",
+                         "Name":  "Satisfactory"
+                     },
+    "GameServer03":  {
+                         "LaunchInfo":  "Windows Powershell",
+                         "description":  "Sons of the Forest - La survie abandonnée",
+                         "Name":  "Sons of the Forest"
+                     }
+}

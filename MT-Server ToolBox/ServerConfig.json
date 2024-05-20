@@ -1,0 +1,42 @@
+
+{
+  "Serverinfo": {
+    "ip": "192.168.1.99",
+    "name": "MT-Server",
+	"description": "Enter a server name (the one you want). Enter its IP address displayed on the local network"
+  },
+  "WOLip_Local": {
+    "ip": "192.168.1.255",
+	"domain": "Local",
+	"description": "IP address for local WOL (.255 to ping all Local IPs)"
+  },	
+  "WOLip_Net": {
+    "ip": "99.98.97.96",
+	"domain": "Internet",
+	"description": "IP address for remote WOL via Internet"
+  },
+  "mac": {
+    "mac": "22:33:4D:55:66:77",
+    "description": "Target MAC adress for WOL"
+  },
+  "WOLport": {
+    "port": 10000,
+    "description": "Define WOL Target Port (9 is the standard)"
+  },
+  "remotedesk": {
+    "port": 10001,
+    "description": "Remote desktop software port. If you want to connect to the server via internet with mstcs Win app. Combined with Internet IP address ($ip2) in Internet domain"
+  },
+  "tcpport": {
+    "port": 10002,
+    "description": "TCP request control port (useful for sending a TCP Remote command to the Server)"
+  },
+  "timeout": {
+    "timeout": 300,
+    "description": "Timout for Quick Connection Test in ms"
+  },
+  "boottime": {
+    "boottime": 450,
+    "description": "Approximate server startup time in tenths of seconds (ex: 400 = 40sec)"
+  }
+}
