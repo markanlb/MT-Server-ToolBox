@@ -1,0 +1,63 @@
+<Grid
+    xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+	xmlns:Dialog="clr-namespace:MahApps.Metro.Controls.Dialogs;assembly=MahApps.Metro"
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+	
+    <Grid Margin="20">
+        <TextBlock TextWrapping="Wrap" TextAlignment="Justify" FontSize="60" FontFamily="Segoe UI Light">
+            MT-Server ToolBox
+        </TextBlock>
+
+        <TextBlock x:Name="tbAbout" TextWrapping="Wrap" TextAlignment="Justify" FontSize="17" Margin="0,100,0,0">
+		The MT-Server ToolBox is a Server management client utility developed by Marcus.
+		</TextBlock>
+		<TextBlock x:Name="tbAbout2" TextWrapping="Wrap" TextAlignment="Justify" FontSize="16" Margin="0,140,0,0">
+		Go take a look on Github :
+        </TextBlock>
+        <TextBox HorizontalAlignment="Left" Margin="0,170,0,0" TextWrapping="Wrap" Text="https://github.com/markanlb" VerticalAlignment="Top" Width="175" IsReadOnly="True"/>
+
+        <TextBlock TextWrapping="Wrap" TextAlignment="Justify" Margin="0,200,0,0">
+		<LineBreak/>
+		<LineBreak/>
+		<LineBreak/>
+		<Span FontSize="12"> MIT License
+		<LineBreak/>
+		<LineBreak/>
+		Copyright (c) 2024 – Marcus
+		<LineBreak/>
+		<LineBreak/>
+		« Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal 
+		in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell 
+		copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: 
+		<LineBreak/>
+		<LineBreak/>
+		The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+		<LineBreak/>
+		<LineBreak/>
+		THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+		FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+		LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. »</Span>
+		<LineBreak/>
+		<LineBreak/>
+		<LineBreak/>
+			<!--
+				<Span FontSize="30">
+				<Span>Is this page helpful ?</Span>
+				<Button Content="Yes"/>
+				<Button Content="No"/>
+			</Span>
+			-->
+        </TextBlock>
+    </Grid>
+
+</Grid>
+
+<!--
+
+Allez jeter un oeil sur le <Hyperlink RequestNavigate="Hyperlink_RequestNavigate" NavigateUri="https://github.com/markanlb">Github</Hyperlink> in it
+
+private void Hyperlink_RequestNavigate(object sender, System.Windows.Navigation.RequestNavigateEventArgs e)
+{
+	System.Diagnostics.Process.Start(e.Uri.AbsoluteUri);
+}-->
