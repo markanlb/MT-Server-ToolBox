@@ -1,5 +1,4 @@
 # MT-Server ToolBox
-Process Checker is a script to retrieve the state of one or more running processes
 
 ⚠️⚠️<br/>
 Have you ever dreamed of being able to control your own remote server from a simple and ergonomic tool ?<br/>
