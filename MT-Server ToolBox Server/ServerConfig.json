@@ -1,0 +1,15 @@
+
+{	
+  "ip_Net": {
+    "ip": "99.98.97.96",
+	"description": "Public IP address of the Server (To establish the listening dialogue)"
+  },
+  "tcpport": {
+    "port": 10002,
+    "description": "TCP request control port (For listening dialog)"
+  },
+  "Discord": {
+    "webhookUrl": "https://Insert-your-webhook-URL-here",
+    "description": "Webhook URL for Discord status"
+  }
+}

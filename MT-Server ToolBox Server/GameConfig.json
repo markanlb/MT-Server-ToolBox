@@ -1,0 +1,23 @@
+﻿{
+    "GameServer02":  {
+                         "LaunchInfo":  "Windows Powershell",
+                         "description":  "Arma 3 - Antistasi Server",
+                         "Name":  "Arma 3",
+                         "StartMethod":  "C:\\MT-Server ToolBox Server\\Games\\Arma3\\Arma3_DS_Startup.ps1",
+						 "StopMethod":  "C:\\MT-Server ToolBox Server\\Games\\Arma3\\Arma3_DS_Shutdown.ps1"
+                     },
+    "GameServer01":  {
+                         "LaunchInfo":  "Windows Powershell",
+                         "description":  "Satisfactory - Pétrole Doggo",
+                         "Name":  "Satisfactory",
+                         "StartMethod":  "C:\\MT-Server ToolBox Server\\Games\\Satisfactory\\Satisfactory_DS_Startup.ps1",
+						 "StopMethod":  "C:\\MT-Server ToolBox Server\\Games\\Satisfactory\\Satisfactory_DS_Shutdown.ps1"
+                     },
+    "GameServer03":  {
+                         "LaunchInfo":  "Windows Powershell",
+                         "description":  "Sons of the Forest - La survie abandonnée",
+                         "Name":  "Sons of the Forest",
+                         "StartMethod":  "C:\\MT-Server ToolBox Server\\Games\\SonsOfTheForest\\SonsOfTheForest_DS_Startup.ps1",
+						 "StopMethod":  "C:\\MT-Server ToolBox Server\\Games\\SonsOfTheForest\\SonsOfTheForest_DS_Shutdown.ps1"
+                     }
+}
