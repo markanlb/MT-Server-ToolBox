@@ -1,0 +1,14 @@
+### GAME SERVER STARTUP SCRIPT #########################################################
+# Get the parameters passed to the script
+$ServerName = $args[0]
+
+###====== Discord Info ======###
+Write-Host "Starting $ServerName Dedicated Server" -ForegroundColor Green
+$fn_Script = & ".\scripts\fn_DiscordBotMessage.ps1" $webhookUrl ":video_game:`n:white_check_mark: Démarrage du serveur dédié **$ServerName**"
+
+###====== Launch Method ======###
+
+###====== UPnP Zone ======###
+# Open UPnP
+Write-Host "Opening UPnp Port"
+upnpc -e MT-Server_Satisfactory -r 15777 15777 udp 15000 15000 udp 7777 7777 udp
