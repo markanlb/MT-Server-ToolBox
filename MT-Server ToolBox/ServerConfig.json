@@ -13,11 +13,11 @@
   "WOLip_Net": {
     "ip": "99.98.97.96",
 	"domain": "Internet",
-	"description": "IP address for remote WOL via Internet"
+	"description": "Router IP address for remote WOL via Internet"
   },
   "mac": {
     "mac": "22:33:4D:55:66:77",
-    "description": "Target MAC adress for WOL"
+    "description": "Target Server MAC adress for WOL"
   },
   "WOLport": {
     "port": 10000,
