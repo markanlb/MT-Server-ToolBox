@@ -17,6 +17,6 @@ Next step :
 - Response from the Server directly to the Toolbox Client ↔️
 - Code optimization ✍️
 
-![Capture](https://raw.githubusercontent.com/markanlb/MT-Server-ToolBox/main/Capture_1.JPG?token=GHSAT0AAAAAACSQXTILGCXIYYUU54TSRDJKZSLIE4Q)
-![Capture](https://raw.githubusercontent.com/markanlb/MT-Server-ToolBox/main/Capture_2.JPG?token=GHSAT0AAAAAACSQXTIK7ILQ6IL327MU3DIKZSLIFAA)
-![Capture](https://raw.githubusercontent.com/markanlb/MT-Server-ToolBox/main/Capture_3.JPG?token=GHSAT0AAAAAACSQXTILX7LVHJNGXAKMRT3GZSLIFAQ)
+![Capture](https://raw.githubusercontent.com/markanlb/MT-Server-ToolBox/refs/heads/main/Capture_1.JPG)
+![Capture](https://raw.githubusercontent.com/markanlb/MT-Server-ToolBox/refs/heads/main/Capture_2.JPG)
+![Capture](https://raw.githubusercontent.com/markanlb/MT-Server-ToolBox/refs/heads/main/Capture_3.JPG)
